@@ -1456,7 +1456,7 @@ window.addEventListener('DOMContentLoaded', () => {
       let _0x599378 = _0x2a6a75
       _0x599378.startsWith('data:') &&
         (_0x599378 = _0x599378.substring(_0x599378.indexOf(',') + 1))
-      const _0x22322a = await fetch('/src/api/generatePrompt', {
+      const _0x22322a = await fetch('/api/generatePrompt', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ imageBase64: _0x599378 }),
